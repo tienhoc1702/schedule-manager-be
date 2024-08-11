@@ -36,4 +36,5 @@ public class ClazzService {
                         .map(ClazzMapper.INSTANCE::toDTO)
                         .collect(Collectors.toList());
     }
+    
 }

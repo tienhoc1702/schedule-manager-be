@@ -30,4 +30,5 @@ public class ShiftService {
 			 .map(ShiftMapper.INSTANCE::toDTO)
              .collect(Collectors.toList());
 	}
+	
 }

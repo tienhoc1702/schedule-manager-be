@@ -15,6 +15,7 @@ public interface ShiftMapper {
 	 @Mapping(source = "clazzs", target = "clazzs")
 	 ShiftDTO toDTO(Shift shift);  
 	
+	
 	@Mapping (source = "shift_id", target = "id")
 	 @Mapping(source = "clazzs", target = "clazzs")
 	 Shift toEntity(ShiftDTO shiftDTO);  

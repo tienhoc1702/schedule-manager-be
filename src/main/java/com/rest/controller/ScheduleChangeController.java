@@ -109,8 +109,7 @@ public class ScheduleChangeController {
  				@RequestParam Integer year,
  				@RequestParam String semester) {
  		return studyInService.getStudyIDbyStudentCodeSubjectCode(student_code,subject_code,block,year,semester);
- 	}
- 	
+ 	} 	
  	// thay doi ca - Tu ID StudyIn thay doi ID Clazz
  	@PutMapping("/api/clazz/changed")
     public List<StudyInDTO> putOne(

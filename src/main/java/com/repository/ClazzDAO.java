@@ -58,8 +58,7 @@ public interface ClazzDAO extends JpaRepository<Clazz, Integer> {
 		    
 		    
 		    /////////////////////////////////// DOI CA HOC /////////////////////////////////	
-		  
-		    
+		  		    
 		    
 		    //Show Clazz of the student code in block,year,semester
 			@Query("SELECT c " +

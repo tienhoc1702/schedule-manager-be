@@ -30,6 +30,7 @@ public interface StudyInMapper {
 	@Mapping(source = "clazz.weekDay.start_time", target = "weekday_date")
 	@Mapping(source = "clazz.room.room", target = "room")
     StudyInDTO toDTO(StudyIn studyin);  
+	
     
 	@Mapping(source = "studyin_id", target = "id")
     @Mapping(source = "clazz_id", target = "clazz.id")

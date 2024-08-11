@@ -25,4 +25,5 @@ public interface ShiftDAO extends JpaRepository<Shift, Integer> {
 			    @Param("block") Integer block,
 			    @Param("year") Integer year,
 			    @Param("semester") String semester);
+	
 }

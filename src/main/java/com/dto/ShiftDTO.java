@@ -13,8 +13,7 @@ import lombok.NoArgsConstructor;
 public class ShiftDTO {
 	Integer shift_id;
 	LocalTime start_time;
-	LocalTime end_time;
-	
+	LocalTime end_time;	
 	String subject_code;
 	String subject_name;	
 	String weekDay;

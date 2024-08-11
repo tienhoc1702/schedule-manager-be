@@ -81,4 +81,5 @@ public interface StudyInDAO extends JpaRepository<StudyIn, Integer> {
         @Param("clazzId") Integer clazzId,
         @Param("id") Integer studyID
     );
+	
 }
