@@ -27,6 +27,6 @@ public class StudyInDTO {
 	LocalTime start_time;
 	LocalTime end_time;
 	String weekday_date;
-	String room;
-	
+	String room;	
+	Integer SL;
 }

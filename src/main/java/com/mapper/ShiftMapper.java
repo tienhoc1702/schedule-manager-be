@@ -11,10 +11,12 @@ import com.entity.Shift;
 public interface ShiftMapper {
 
 	ShiftMapper INSTANCE = Mappers.getMapper(ShiftMapper.class);  
-
+	@Mapping (source = "id", target = "shift_id")	
 	 @Mapping(source = "clazzs", target = "clazzs")
 	 ShiftDTO toDTO(Shift shift);  
-	    
+	
+	
+	@Mapping (source = "shift_id", target = "id")
 	 @Mapping(source = "clazzs", target = "clazzs")
 	 Shift toEntity(ShiftDTO shiftDTO);  
 }

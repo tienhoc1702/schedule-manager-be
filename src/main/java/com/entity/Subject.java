@@ -45,6 +45,7 @@ public class Subject implements Serializable {
     @Column(nullable = false)
 	Integer hours;
 	
+	
 	@ManyToOne
 	@JoinColumn(name ="required_id")
 	Subject required;

@@ -11,9 +11,11 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ShiftDTO {
-	String subject_code;
-	String subject_name;
 	Integer shift_id;
+	LocalTime start_time;
+	LocalTime end_time;	
+	String subject_code;
+	String subject_name;	
 	String weekDay;
 	String intrustor_code;
 	List<ClazzDTO> clazzs;

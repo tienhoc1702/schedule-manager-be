@@ -30,8 +30,7 @@ public interface ClazzMapper {
     @Mapping(source = "room.room", target = "room_id")
 	@Mapping(source = "schedules", target = "schedules")
 	ClazzDTO toDTO(Clazz clazz);  
-    
-	
+    	
 	@Mapping(source = "block_id", target = "block.block")
     @Mapping(source = "semester_id", target = "semester.semester")
     @Mapping(source = "year_id", target = "year.year")

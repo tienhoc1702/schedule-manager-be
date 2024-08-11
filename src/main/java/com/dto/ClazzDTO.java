@@ -14,7 +14,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ClazzDTO {
-
 	Integer id;
 	String code;
 	Integer block_id;
