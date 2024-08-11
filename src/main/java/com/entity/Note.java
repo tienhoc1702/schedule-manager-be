@@ -37,6 +37,9 @@ public class Note implements Serializable {
     @Size(max = 225, message = "Content must be less than or equal to 225 characters")
 	@Column(name="content", columnDefinition = "nvarchar(225)")
 	String content;
+    
+    @Column(name="location", columnDefinition = "nvarchar(225)")
+    String location;
 	
 	@Temporal(TemporalType.DATE)
 	@Column(name = "date")
