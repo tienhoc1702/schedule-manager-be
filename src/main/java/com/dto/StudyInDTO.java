@@ -29,4 +29,5 @@ public class StudyInDTO {
 	String weekday_date;
 	String room;
 	
+	Integer SL;
 }
